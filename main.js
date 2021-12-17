@@ -6,6 +6,7 @@ const app = Vue.createApp({
             description: "This is the description",
             image : './assets/images/socks_blue.jpg',
             inventory: 0,
+            inStock: false,
             onSale: true,
             variants:[
                 {
